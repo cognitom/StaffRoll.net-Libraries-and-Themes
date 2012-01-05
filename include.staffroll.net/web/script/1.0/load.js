@@ -46,7 +46,7 @@ StaffRoll.Credit = function(){
 		var script, link;
 		var scripts = document.getElementsByTagName("script");
 		for (var i=0; i<scripts.length; i++){
-			if (scripts[i].src && scripts[i].src.match(/^https?:\/\/include\.staffroll\.(net|site)\/script\/1\.0\/load\.js(\?.*)?$/)){
+			if (scripts[i].src && scripts[i].src.match(/^https?:\/\/include\.staffroll\.(net|site)\/web\/script\/1\.0\/load\.js(\?.*)?$/)){
 				script = scripts[i];
 			}
 		}
@@ -55,11 +55,11 @@ StaffRoll.Credit = function(){
 			this.theme_ready = false;
 			script = document.createElement('script');
 				script.setAttribute('type', 'text/javascript');
-				script.setAttribute('src', 'http://include.'+StaffRoll.net.replace('beta.','')+'/theme/'+theme+'/1.0/main.js');
+				script.setAttribute('src', 'http://include.'+StaffRoll.net.replace('beta.','')+'/web/theme/'+theme+'/1.0/main.js');
 			link = document.createElement('link');
 				link.setAttribute('rel', 'stylesheet');
 				link.setAttribute('type', 'text/css');
-				link.setAttribute('href', 'http://include.'+StaffRoll.net.replace('beta.','')+'/theme/'+theme+'/1.0/main.css');
+				link.setAttribute('href', 'http://include.'+StaffRoll.net.replace('beta.','')+'/web/theme/'+theme+'/1.0/main.css');
 			document.getElementsByTagName('head')[0].appendChild(script);
 			document.getElementsByTagName('head')[0].appendChild(link);
 		}
