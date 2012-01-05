@@ -1,0 +1,49 @@
+/* @override http://include.staffroll.site/theme/basic/1.0/main.css */
+
+#srBox {
+	position:fixed;
+	padding:60px 30px;
+	left:0; right:0;
+	top:0; bottom:0;
+	background:#000;
+	background:rgba(0,0,0,.8);
+	color:#FFF;
+	text-align:center;
+	z-index:999;
+}
+#srBox div {
+	margin:0 auto;
+}
+#srBox div div.page {
+	width:200px; float:left;
+}
+#srBox dl {
+}
+#srBox dl dt {
+	font-size:14px;
+	margin:1em 0 0;
+}
+#srBox dl dd {
+	font-size:18px;
+	margin:0;
+}
+#srBox dl dd span {
+	display:block;
+	margin:0 1em;
+	font-size:12px;
+}
+#srBox h2 {
+	color:#FFF;
+	font-size:32px;
+	background:none;
+	margin:0 0 30px;
+}
+#srBox h3 {
+	color:#FFF;
+	font-size:12px;
+	margin:0 10px;
+	border-bottom:1px dotted #FFF;
+}
+#srBox a {
+	color:#FFF;
+}
