@@ -3,8 +3,7 @@ var StaffRoll = {};//namespace
 /**
  * Settings
  */
-//StaffRoll.net = 'staffroll.net';
-StaffRoll.net = 'staffroll.site';
+StaffRoll.net = 'staffroll.net';
 
 /**
  * Classes
