@@ -1,0 +1,66 @@
+/* @override http://include.staffroll.site/theme/underground/1.0/main.css */
+
+#srBox {
+	padding:0;
+	background:#302827 url(images/bg.png) repeat-x top;
+	color:#FFF;
+	text-align:center;
+    text-shadow:0 1px 1px #000;
+    height:0;
+    overflow:hidden;
+    position:relative;
+}
+#srBoxInner {
+	padding:60px 30px;
+	background:url(images/logo.png) no-repeat bottom right;
+}
+#srBoxClose {
+	position:absolute;
+	padding:0; margin:0;
+	top:10px; right:15px; height:32px; width:90px;
+	text-indent:-9999px;
+	background:url(images/close.png) no-repeat 0 0;
+	cursor:pointer;
+}
+#srBoxClose:hover {
+	background-position:-90px 0;
+}
+#srBox div {
+	margin:0 auto;
+}
+#srBox div div.page {
+	width:200px; float:left;
+}
+#srBox dl {
+}
+#srBox dl dt {
+	font-size:14px;
+	margin:1em 0 0;
+}
+#srBox dl dd {
+	font-size:18px;
+	margin:0;
+}
+#srBox dl dd span {
+	display:block;
+	margin:0 1em;
+	font-size:12px;
+}
+#srBox h2 {
+	color:#FFF;
+	font-size:32px;
+	background:none;
+	margin:0 0 30px;
+}
+#srBox h3 {
+	color:#FFF;
+	font-size:12px;
+	margin:0 10px;
+	border-bottom:1px dotted #FFF;
+}
+#srBox a {
+	color:#FFF;
+}
+#srBox div.clear {
+	clear:both;
+}
